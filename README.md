@@ -18,7 +18,7 @@ https://github.com/LaxmikantKshemaling/cocobizz/blob/cccd11636450b4052f7e0e67f06
 
 ### Farmer Dashboard
 
-![Farmer Dashboard](screenshots/farmer-dashboard.png)
+[![Farmer Dashboard](screenshots/farmer-dashboard.png)](https://github.com/LaxmikantKshemaling/cocobizz/blob/1c567b9079bdaefcbaf3f0cfbc788db55651d502/Screenshot%202026-06-04%20142120.png)
 
 ### Inventory Dashboard
 
