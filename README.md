@@ -34,7 +34,7 @@ https://github.com/LaxmikantKshemaling/cocobizz/blob/cccd11636450b4052f7e0e67f06
 
 ### Distributor Shipment Requests
 
-![Shipment Requests](screenshots/shipment-requests.png)
+[![Shipment Requests](screenshots/shipment-requests.png)](https://github.com/LaxmikantKshemaling/cocobizz/blob/0494eeb24e6ccdc93ae94fe4ecc2bc2822c6235d/Screenshot%202026-06-04%20141604.png)
 
 ---
 
