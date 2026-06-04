@@ -1,268 +1,167 @@
-# 🚀 CoCoBizz - Smart Inventory & Supply Chain Management System
+# CoCoBizz - Inventory Management System
 
-## 📌 Overview
+## Overview
 
-CoCoBizz is a Full-Stack Inventory and Supply Chain Management System designed to streamline inventory tracking, warehouse operations, product management, procurement, shipment tracking, and business analytics.
-
-The platform enables multiple stakeholders such as Admins, Farmers, Sellers, Distributors, and Drivers to collaborate through a secure role-based system.
-
-Built using Spring Boot, React JS, MySQL, Hibernate, JPA, and Spring Security, CoCoBizz provides real-time inventory monitoring, shipment tracking, and business management through modern dashboards.
+CoCoBizz is a full-stack Inventory Management System developed to manage products, inventory, orders, warehouses, and business operations efficiently. The application provides secure authentication and authorization, inventory tracking, product management, order management, shipment tracking, and warehouse management through a modern web interface.
 
 ---
 
-## 🌟 Key Features
+## Application Screenshots
 
-### 🔐 Authentication & Authorization
-
-- Secure Login & Registration
-- Spring Security Integration
-- BCrypt Password Encryption
-- Role-Based Access Control (RBAC)
-- Protected APIs
-- Session Management
-
----
-
-## 👨‍💼 Admin Module
-
-- Dashboard Analytics
-- User Management
-- Category Management
-- Product Management
-- Warehouse Management
-- Purchase Management
-- Inventory Monitoring
-- Shipment Assignment
-- Shipment Tracking
-- Revenue & Profit Analysis
-
----
-
-## 👨‍🌾 Farmer Module
-
-- Product Stock Inflow
-- Earnings Dashboard
-- Sales Analytics
-- Product Management
-- Delivery Center Tracking
-- Payment Tracking
-
----
-
-## 🏪 Seller Module
-
-- Product Management
-- Order Management
-- Revenue Monitoring
-- Payment Tracking
-- Sales Dashboard
-
----
-
-## 🚚 Distributor Module
-
-- Vehicle Management
-- Shipment Requests
-- Delivery Tracking
-- Live Shipment Monitoring
-
----
-
-## 📦 Inventory Management
-
-- Real-Time Stock Tracking
-- Low Stock Monitoring
-- Inventory Valuation
-- Warehouse-wise Inventory
-- Product Allocation
-- Stock Distribution
-
----
-
-## 🚛 Shipment Management
-
-- Shipment Assignment
-- Driver Allocation
-- Live Shipment Tracking
-- Delivery Status Updates
-- Route Monitoring
-- Shipment Lifecycle Tracking
-
----
-
-## 📊 Business Analytics
-
-- Revenue Tracking
-- Purchase Analysis
-- Profit & Loss Monitoring
-- Sales Reports
-- Inventory Reports
-- Warehouse Analytics
-
----
-
-# 🖼️ Application Screenshots
-
-## Admin Dashboard
+### Admin Dashboard
 
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
-Features:
-
-- Revenue Tracking
-- Purchase Monitoring
-- Profit Analysis
-- Inventory Status
-- Warehouse Overview
-- User Management
-
----
-
-## Seller Dashboard
+### Seller Dashboard
 
 ![Seller Dashboard](screenshots/seller-dashboard.png)
 
-Features:
-
-- Product Overview
-- Order Tracking
-- Revenue Analytics
-- Payment Management
-
----
-
-## Farmer Dashboard
+### Farmer Dashboard
 
 ![Farmer Dashboard](screenshots/farmer-dashboard.png)
 
-Features:
-
-- Product Stock Monitoring
-- Earnings Tracking
-- Sales Analytics
-- Revenue Charts
-
----
-
-## Distributor Dashboard
-
-![Distributor Dashboard](screenshots/distributor-dashboard.png)
-
-Features:
-
-- Vehicle Management
-- Shipment Requests
-- Delivery Tracking
-
----
-
-## Shipment Tracking
-
-![Shipment Tracking](screenshots/shipment-tracking.png)
-
-Features:
-
-- Driver Information
-- Warehouse Details
-- Product Details
-- Delivery Status Tracking
-
----
-
-## Inventory Dashboard
+### Inventory Dashboard
 
 ![Inventory Dashboard](screenshots/inventory-dashboard.png)
 
-Features:
+### Live Shipment Tracking
 
-- Inventory Valuation
-- Stock Status
-- Warehouse Inventory
-- Profit Tracking
+![Shipment Tracking](screenshots/shipment-tracking.png)
 
----
+### Distributor Dashboard
 
-## Distributor Shipment Requests
+![Distributor Dashboard](screenshots/distributor-dashboard.png)
+
+### Distributor Shipment Requests
 
 ![Shipment Requests](screenshots/shipment-requests.png)
 
-Features:
+---
 
-- Accept Shipment
-- Reject Shipment
-- Delivery Updates
-- Route Tracking
+## Features
+
+### User Authentication and Authorization
+
+* Spring Security Authentication
+* Secure Login and Registration
+* Password Encryption using BCryptPasswordEncoder
+* Role-Based Access Control (Admin/User/Farmer/Seller/Distributor)
+
+### Product Management
+
+* Add Product
+* Update Product
+* Delete Product
+* View Products
+* Product Categorization
+
+### Inventory Tracking
+
+* Real-Time Inventory Monitoring
+* Stock Management
+* Inventory Reports
+* Low Stock Alerts
+* Inventory Valuation
+
+### Warehouse Management
+
+* Warehouse Creation
+* Product Allocation
+* Stock Distribution
+* Warehouse Inventory Monitoring
+
+### Order Management
+
+* Create Orders
+* Manage Orders
+* Track Orders
+* Purchase Transactions
+
+### Shipment Management
+
+* Assign Shipments
+* Driver Allocation
+* Shipment Tracking
+* Live Delivery Status
+* Delivery Workflow Monitoring
+
+### Dashboard for Business Operations
+
+* Revenue Tracking
+* Purchase Monitoring
+* Profit & Loss Analysis
+* Sales Reports
+* Inventory Analytics
+
+### Responsive User Interface
+
+* Modern Dashboard Design
+* Responsive Layout
+* User-Friendly Navigation
+
+### REST API Integration
+
+* Secure REST APIs
+* Frontend-Backend Communication using Axios
+
+### MySQL Database Integration
+
+* Persistent Data Storage
+* Optimized Database Operations
 
 ---
 
-# 🏗️ System Architecture
+## Technologies Used
 
-```text
-React JS Frontend
-        │
-        ▼
- REST APIs (Axios)
-        │
-        ▼
- Spring Boot Backend
-        │
-        ▼
- Spring Security
-        │
-        ▼
- JPA Repository
-        │
-        ▼
- Hibernate ORM
-        │
-        ▼
- MySQL Database
-```
+### Frontend
 
----
+* React JS
+* HTML
+* CSS
+* Bootstrap
+* Axios
 
-# ⚙️ Technology Stack
+### Backend
 
-## Frontend
+* Java
+* Spring Boot
+* Spring Framework
+* Spring Security
+* REST APIs
+* JPA Repository
+* Hibernate
 
-- React JS
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- Axios
+### Database
 
-## Backend
+* MySQL
 
-- Java
-- Spring Boot
-- Spring Framework
-- Spring Security
-- REST APIs
-- Hibernate
-- JPA Repository
+### Tools
 
-## Database
-
-- MySQL
-
-## Tools
-
-- IntelliJ IDEA
-- VS Code
-- GitHub
-- Postman
-- Maven
+* IntelliJ IDEA
+* VS Code
+* GitHub
+* Postman
+* Maven
 
 ---
 
-# 🔒 Security Implementation
+## Security Implementation
 
-## Authentication
+The application uses Spring Security for securing APIs and application resources.
 
-- User Login
-- Password Encryption using BCrypt
-- Secure User Verification
+### Authentication
+
+* User Login
+* Password Encryption using BCryptPasswordEncoder
+* Secure User Verification
+
+### Authorization
+
+* Role-Based Access Control
+* Admin Access Management
+* User Access Restrictions
+
+### Example Security Configuration
 
 ```java
 @Bean
@@ -271,124 +170,120 @@ public PasswordEncoder passwordEncoder() {
 }
 ```
 
-## Authorization
+---
 
-- Role-Based Access Control
-- Admin Privileges
-- User Restrictions
-- Secure API Endpoints
+## Modules
+
+### Product Management
+
+* Add Product
+* Update Product
+* Delete Product
+* View Products
+
+### Inventory Management
+
+* Stock Tracking
+* Inventory Updates
+* Inventory Reports
+
+### Order Management
+
+* Create Orders
+* Manage Orders
+* Track Orders
+
+### Warehouse Management
+
+* Manage Warehouses
+* Product Allocation
+* Stock Distribution
+
+### Shipment Management
+
+* Shipment Assignment
+* Driver Management
+* Delivery Tracking
+* Live Shipment Monitoring
 
 ---
 
-# 📂 Project Structure
+## Project Architecture
 
 ```text
-cocobizz
-│
-├── frontend
-│   ├── React Components
-│   ├── Pages
-│   ├── Services
-│   └── API Integration
-│
-├── backend
-│   ├── Controller
-│   ├── Service
-│   ├── Repository
-│   ├── Entity
-│   ├── DTO
-│   └── Security
-│
-└── database
-    └── MySQL Schema
+Frontend (React JS)
+
+↓
+
+REST APIs
+
+↓
+
+Spring Boot Backend
+
+↓
+
+Spring Security
+
+↓
+
+JPA Repository / Hibernate
+
+↓
+
+MySQL Database
 ```
 
 ---
 
-# 🛠️ Installation & Setup
+## Database
 
-## Clone Repository
+MySQL is used to store:
 
-```bash
-git clone https://github.com/LaxmikantKshemaling/cocobizz.git
-```
-
-## Backend Setup
-
-```bash
-cd backend
-mvn clean install
-mvn spring-boot:run
-```
-
-## Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm start
-```
+* User Information
+* Product Details
+* Inventory Records
+* Orders
+* Warehouse Data
+* Shipment Data
 
 ---
 
-# 🗄️ Database Configuration
+## Key Learning Outcomes
 
-Update application.properties
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/cocobizz
-spring.datasource.username=root
-spring.datasource.password=your_password
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
+* Full Stack Application Development
+* Spring Boot REST API Development
+* Spring Security Authentication & Authorization
+* React JS Frontend Development
+* Database Design using MySQL
+* JPA Repository and Hibernate Integration
+* Secure Application Development
+* Inventory and Supply Chain Management
 
 ---
 
-# 📈 Future Enhancements
+## Future Enhancements
 
-- JWT Authentication
-- Email Notifications
-- Mobile Application
-- Advanced Analytics Dashboard
-- AI-Based Demand Forecasting
-- Export Reports to Excel/PDF
-- Cloud Deployment (AWS)
-
----
-
-# 🎯 Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-- Full Stack Development
-- Spring Boot REST APIs
-- Spring Security
-- Authentication & Authorization
-- React JS Development
-- Hibernate ORM
-- JPA Repository
-- Database Design
-- Inventory Management Systems
-- Supply Chain Workflows
+* JWT Authentication
+* Email Notifications
+* Sales Reports
+* Advanced Analytics Dashboard
+* Export Reports to Excel/PDF
+* Cloud Deployment
+* Mobile Application Support
 
 ---
 
-# 👨‍💻 Author
+## Author
 
-**Laxmikant Kshemaling**
+### Laxmikant Kshemaling
 
 GitHub:
-
 https://github.com/LaxmikantKshemaling
 
 Project Repository:
-
 https://github.com/LaxmikantKshemaling/cocobizz
 
 ---
 
-# ⭐ If you found this project useful
-
-Please give the repository a Star ⭐ on GitHub.
+⭐ If you found this project useful, please consider giving it a Star on GitHub.
