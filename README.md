@@ -10,7 +10,7 @@ CoCoBizz is a full-stack Inventory Management System developed to manage product
 
 ### Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+https://github.com/LaxmikantKshemaling/cocobizz/blob/cccd11636450b4052f7e0e67f06fa55ebb5fbdb2/cocobuzz.png
 
 ### Seller Dashboard
 
