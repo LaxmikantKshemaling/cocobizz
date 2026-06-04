@@ -14,7 +14,7 @@ https://github.com/LaxmikantKshemaling/cocobizz/blob/cccd11636450b4052f7e0e67f06
 
 ### Seller Dashboard
 
-![Seller Dashboard](screenshots/seller-dashboard.png)
+[![Seller Dashboard(https://github.com/LaxmikantKshemaling/cocobizz/blob/abd5f96b3568e5bec5f9900afcca88bc5cb7a3a0/Screenshot%202026-06-04%20142304.png)
 
 ### Farmer Dashboard
 
