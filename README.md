@@ -20,13 +20,7 @@ CoCoBizz is a full-stack Inventory Management System developed to manage product
 
 ![Farmer Dashboard](Screenshot%202026-06-04%20142120.png)
 
-### Inventory Dashboard
 
-![Inventory Dashboard](Screenshot%202026-06-04%20141724.png)
-
-### Live Shipment Tracking
-
-![Shipment Tracking](Screenshot%202026-06-04%20141811.png)
 
 ### Distributor Dashboard
 
