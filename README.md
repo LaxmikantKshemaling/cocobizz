@@ -10,31 +10,31 @@ CoCoBizz is a full-stack Inventory Management System developed to manage product
 
 ### Admin Dashboard
 
-https://github.com/LaxmikantKshemaling/cocobizz/blob/cccd11636450b4052f7e0e67f06fa55ebb5fbdb2/cocobuzz.png
+![Admin Dashboard](cocobuzz.png)
 
 ### Seller Dashboard
 
-[![Seller Dashboard(https://github.com/LaxmikantKshemaling/cocobizz/blob/abd5f96b3568e5bec5f9900afcca88bc5cb7a3a0/Screenshot%202026-06-04%20142304.png)
+![Seller Dashboard](Screenshot%202026-06-04%20142304.png)
 
 ### Farmer Dashboard
 
-[[![Farmer Dashboard](screenshots/farmer-dashboard.png)](https://github.com/LaxmikantKshemaling/cocobizz/blob/1c567b9079bdaefcbaf3f0cfbc788db55651d502/Screenshot%202026-06-04%20142120.png)](https://github.com/LaxmikantKshemaling/cocobizz/blob/d58da2703e89bb0514e70145910983f0a00a8060/Screenshot%202026-06-04%20142120.png)
+![Farmer Dashboard](Screenshot%202026-06-04%20142120.png)
 
 ### Inventory Dashboard
 
-![Inventory Dashboard](screenshots/inventory-dashboard.png)
+![Inventory Dashboard](Screenshot%202026-06-04%20141724.png)
 
 ### Live Shipment Tracking
 
-![Shipment Tracking](screenshots/shipment-tracking.png)
+![Shipment Tracking](Screenshot%202026-06-04%20141811.png)
 
 ### Distributor Dashboard
 
-![Distributor Dashboard](screenshots/distributor-dashboard.png)
+![Distributor Dashboard](Screenshot%202026-06-04%20141539.png)
 
 ### Distributor Shipment Requests
 
-[![Shipment Requests](screenshots/shipment-requests.png)](https://github.com/LaxmikantKshemaling/cocobizz/blob/0494eeb24e6ccdc93ae94fe4ecc2bc2822c6235d/Screenshot%202026-06-04%20141604.png)
+![Shipment Requests](Screenshot%202026-06-04%20141604.png)
 
 ---
 
@@ -155,14 +155,6 @@ The application uses Spring Security for securing APIs and application resources
 * Password Encryption using BCryptPasswordEncoder
 * Secure User Verification
 
-### Authorization
-
-* Role-Based Access Control
-* Admin Access Management
-* User Access Restrictions
-
-### Example Security Configuration
-
 ```java
 @Bean
 public PasswordEncoder passwordEncoder() {
@@ -170,41 +162,11 @@ public PasswordEncoder passwordEncoder() {
 }
 ```
 
----
+### Authorization
 
-## Modules
-
-### Product Management
-
-* Add Product
-* Update Product
-* Delete Product
-* View Products
-
-### Inventory Management
-
-* Stock Tracking
-* Inventory Updates
-* Inventory Reports
-
-### Order Management
-
-* Create Orders
-* Manage Orders
-* Track Orders
-
-### Warehouse Management
-
-* Manage Warehouses
-* Product Allocation
-* Stock Distribution
-
-### Shipment Management
-
-* Shipment Assignment
-* Driver Management
-* Delivery Tracking
-* Live Shipment Monitoring
+* Role-Based Access Control
+* Admin Access Management
+* User Access Restrictions
 
 ---
 
@@ -212,65 +174,17 @@ public PasswordEncoder passwordEncoder() {
 
 ```text
 Frontend (React JS)
-
-↓
-
+        ↓
 REST APIs
-
-↓
-
+        ↓
 Spring Boot Backend
-
-↓
-
+        ↓
 Spring Security
-
-↓
-
+        ↓
 JPA Repository / Hibernate
-
-↓
-
+        ↓
 MySQL Database
 ```
-
----
-
-## Database
-
-MySQL is used to store:
-
-* User Information
-* Product Details
-* Inventory Records
-* Orders
-* Warehouse Data
-* Shipment Data
-
----
-
-## Key Learning Outcomes
-
-* Full Stack Application Development
-* Spring Boot REST API Development
-* Spring Security Authentication & Authorization
-* React JS Frontend Development
-* Database Design using MySQL
-* JPA Repository and Hibernate Integration
-* Secure Application Development
-* Inventory and Supply Chain Management
-
----
-
-## Future Enhancements
-
-* JWT Authentication
-* Email Notifications
-* Sales Reports
-* Advanced Analytics Dashboard
-* Export Reports to Excel/PDF
-* Cloud Deployment
-* Mobile Application Support
 
 ---
 
